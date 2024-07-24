@@ -55,7 +55,6 @@ table {
  }
 
  /**=================預防Ｘ軸==================*/
-
  img{
     max-width: 100%;
     height: auto;
@@ -69,6 +68,9 @@ table {
 	font-family: "Bruno Ace SC" sans-serif;
 	line-height: 1.5;
  }
+
+
+
  /**=================RWD==================*/
 
   
@@ -120,15 +122,17 @@ table {
 
 /*--容器--*/
 
+
+
 .container{
-	width: 1296px;
+	max-width: 1296px;
 	margin: 0 auto;
 }
 
 
 
  .frame{
-	background-color: black;
+	background-color: #000000;
 	color: #FFFFFF;
  }
 
@@ -137,6 +141,8 @@ table {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding-top : 54px;
+	padding-bottom: 54px;
 }
  
 
